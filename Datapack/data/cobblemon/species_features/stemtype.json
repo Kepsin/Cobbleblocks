@@ -1,0 +1,12 @@
+{
+    "keys": [ "stemtype" ],
+    "type": "choice",
+    "default": false,
+    "choices": [
+        "mushroom",
+        "warped",
+        "crimson"
+      ],    
+    "isAspect": true,
+    "aspectFormat": "stemtype-{{choice}}"
+  }
