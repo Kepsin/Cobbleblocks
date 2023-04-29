@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:planks",
+  "order": 5,
+  "variations": [
+
+
+    {
+      "aspects": ["planktype-acacia"],
+      "poser": "cobblemon:planks",
+      "model": "cobblemon:planks.geo",
+      "texture": "cobblemon:textures/pokemon/planks/acacia_planks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "planktype-acacia"],
+      "texture": "cobblemon:textures/pokemon/planks/acacia_planks_shiny.png"
+    }
+  ]
+}

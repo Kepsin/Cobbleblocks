@@ -1,0 +1,52 @@
+{
+    "enabled": true
+  
+  ,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": []
+  
+  ,
+    "spawns": [
+ 
+      {
+        "id": "sand-1",
+        "pokemon": "sand",
+        "presets": ["natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-30",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "#minecraft:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+            "minecraft:sand"
+          ]
+        }
+      },
+      {
+        "id": "sand-2",
+        "pokemon": "sand",
+        "presets": ["natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-30",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": false,
+          "biomes": [
+            "#minecraft:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+            "minecraft:sand"
+          ]
+        }
+      }
+    ]
+  }

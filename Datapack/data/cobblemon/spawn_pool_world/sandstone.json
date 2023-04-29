@@ -1,0 +1,52 @@
+{
+    "enabled": true
+  
+  ,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": []
+  
+  ,
+    "spawns": [
+ 
+      {
+        "id": "sandstone-1",
+        "pokemon": "sandstone",
+        "presets": ["natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "32-45",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "#minecraft:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+            "minecraft:sandstone"
+          ]
+        }
+      },
+      {
+        "id": "sandstone-2",
+        "pokemon": "sandstone",
+        "presets": ["natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "32-45",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": false,
+          "biomes": [
+            "#minecraft:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+            "minecraft:sandstone"
+          ]
+        }
+      }
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+    "keys": [ "woodtype" ],
+    "type": "choice",
+    "default": false,
+    "choices": [
+        "oak",
+        "spruce",
+        "darkoak",
+        "acacia",
+        "birch",
+        "jungle",
+        "mangrove",
+        "apricorn"
+      ],    
+    "isAspect": true,
+    "aspectFormat": "woodtype-{{choice}}"
+  }

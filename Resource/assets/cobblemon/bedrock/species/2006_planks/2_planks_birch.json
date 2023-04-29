@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:planks",
+  "order": 2,
+  "variations": [
+
+
+    {
+      "aspects": ["planktype-birch"],
+      "poser": "cobblemon:planks",
+      "model": "cobblemon:planks.geo",
+      "texture": "cobblemon:textures/pokemon/planks/birch_planks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "planktype-birch"],
+      "texture": "cobblemon:textures/pokemon/planks/birch_planks_shiny.png"
+    }
+  ]
+}

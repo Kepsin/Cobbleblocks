@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:log",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "aspects": [],
+      "poser": "cobblemon:log",
+      "model": "cobblemon:log.geo",
+      "texture": "cobblemon:textures/pokemon/log/oak_log.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny"],
+      "texture": "cobblemon:textures/pokemon/log/oak_log_shiny.png"
+    }
+  ]
+}

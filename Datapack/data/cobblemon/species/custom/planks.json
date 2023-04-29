@@ -1,0 +1,215 @@
+{
+  "implemented": true,
+  "name": "planks",
+  "nationalPokedexNumber": 2006,
+  "primaryType": "grass",
+  "abilities": [
+    "chlorophyll",
+    "h:overgrow"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 115,
+    "speed": 60
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  },
+  "aspects":["planktype"],
+  "features":["planktype"],
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [{
+    "name": "planktype-spruce",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:spruce_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    },
+    "preEvolution": "log form=woodtype-spruce"
+  },
+  {
+    "name": "planktype-birch",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:birch_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    },
+    "preEvolution": "log form=woodtype-birch"
+  },  
+  {
+    "name": "planktype-darkoak",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:dark_oak_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    },
+    "preEvolution": "log form=woodtype-darkoak"
+  },  
+  {
+    "name": "planktype-acacia",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:acacia_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    },
+    "preEvolution": "log form=woodtype-acacia"
+  },
+  {
+    "name": "planktype-jungle",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:jungle_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    },
+    "preEvolution": "log form=woodtype-jungle"
+  },
+  {
+    "name": "planktype-mangrove",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:mangrove_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    },
+    "preEvolution": "log form=woodtype-mangrove"
+  },
+  {
+    "name": "planktype-apricorn",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "cobblemon:apricorn_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    },
+    "preEvolution": "log form=woodtype-apricon"
+  },  
+  {
+    "name": "planktype-warped",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:warped_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    }
+  },  
+  {
+    "name": "planktype-crimson",
+    "drops": {
+      "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:crimson_planks",
+          "quantityRange": "1",
+          "percentage": 100
+        }
+      ]
+    }
+  }],
+  "baseExperienceYield": 270,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:oak_planks",
+        "quantityRange": "1",
+        "percentage": 100
+      }
+    ]
+  },
+  "moves": [
+    "tutor:grassyterrain",
+    "tutor:headcharge",
+    "tutor:petalblizzard",
+    "0:tackle",
+    "0:scratch",
+    "0:naturepower",
+    "5:razorleaf",
+    "12:leechseed",
+    "16:rapidspin",
+    "21:growth",
+    "25:leafblade",
+    "31:steamroller",
+    "35:strengthsap",
+    "42:powerwhip",
+    "50:chloroblast",
+    "56:woodhammer",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:toxic"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.planks.desc1",
+    "cobblemon.species.planks.desc2"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "defence": 2,
+    "attack": 1
+  },
+  "height": 2,
+  "weight": 10,
+  "preEvolution": "log"
+}

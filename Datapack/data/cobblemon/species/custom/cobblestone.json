@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "cobblestone",
+  "nationalPokedexNumber": 2002,
+  "primaryType": "rock",
+  "abilities": [
+    "solidrock",
+    "rockhead",
+    "h:rockypayload"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 85,
+    "special_attack": 35,
+    "special_defence": 85,
+    "speed": 40
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cobblestone",
+        "quantityRange": "1",
+        "percentage": 100
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "quantityRange": "1",
+        "percentage": 5
+      }
+    ]
+  },
+  "features": [],
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 270,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "egg:disable",
+    "0:tackle",
+    "0:harden",
+    "5:rockthrow",
+    "11:magnitude",
+    "16:endure",
+    "24:rockslide",
+    "27:irondefense",
+    "30:sharpen",
+    "32:stealthrock",
+    "39:earthquake",
+    "43:stoneedge",
+    "tm:earthquake",
+    "tm:rockslide",
+    "tm:stealthrock",
+    "tm:stoneedge"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.cobblestone.desc1",
+    "cobblemon.species.cobblestone.desc2"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "defence": 2,
+    "hp": 1
+  },
+  "height": 2,
+  "weight": 10,
+  "evolutions": [{
+    "id": "cobblestone_stone_furnace",
+    "variant": "item_interact",
+    "result": "stone",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [{ 
+      "variant": "held_item",
+      "item": "minecraft:blaze_powder"}],
+    "requiredContext": "minecraft:furnace"
+
+  }]
+}

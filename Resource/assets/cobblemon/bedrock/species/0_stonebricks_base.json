@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:stonebricks",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "aspects": [],
+      "poser": "cobblemon:stonebricks",
+      "model": "cobblemon:stonebricks.geo",
+      "texture": "cobblemon:textures/pokemon/stonebricks/stone_bricks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/stonebricks/deepslate_bricks.png"
+
+
+    }
+  ]
+}

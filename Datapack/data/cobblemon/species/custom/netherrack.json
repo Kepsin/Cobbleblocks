@@ -1,0 +1,153 @@
+{
+"implemented": true
+
+,
+  "name": "netherrack"
+
+,
+  "labels": [ "custom" ]
+
+,
+  "pokedex": [
+
+
+    "cobblemon.species.netherrack.desc1",
+    "cobblemon.species.netherrack.desc2"
+
+
+  ],
+  "height": 3,
+  "weight": 30,
+  "forms": [
+    { "name": "normal" }
+  ],
+  "shoulderMountable": false, 
+  "shoulderEffects": [ "slow_fall" ],
+
+  "primaryType": "fire",
+  "secondaryType": "rock"
+
+,
+  "baseStats": {
+    "hp": 75,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 45,
+    "special_defence": 65,
+    "speed": 50
+  }
+
+,
+  "catchRate": 30
+
+,
+  "maleRatio": 0.5
+
+,
+  "baseExperienceYield": 270
+
+,
+  "experienceGroup": "fluctuating"
+
+,
+  "eggCycles": 25
+
+,
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 2
+  },
+  "moves": [
+
+
+    "egg:disable",
+    "0:tackle",
+    "0:harden",
+    "5:ember",
+    "9:rockthrow",
+    "20:crushclaw",
+    "tm:rest",
+    "tutor:honeclaws"
+
+
+  ],
+  "abilities": [
+
+
+    "toughclaws",
+    "h:serenegrace"
+
+
+  ],
+  "baseScale": 1.0
+
+  ,
+    "hitbox": {
+  
+  
+      "width": 0.9,
+      "height": 1.4
+  
+  ,
+      "fixed": false
+  
+  
+    },
+    "drops": {
+  
+  
+    "amount": "1"
+  
+  ,
+      "entries": [
+  
+  
+        {
+          "item": "minecraft:netherrack"
+  
+  ,
+          "quantityRange": "1"
+  
+  ,
+          "percentage": 100
+  
+  
+        }
+      ]
+    },
+    "behaviour": {
+  
+  
+      "moving": {
+  
+  
+      "canLook": false
+  
+  ,
+        "fly": {
+  
+  
+          "canFly": false
+  
+  
+        }   ,       
+        "swim": {
+  
+  
+          "swimSpeed": 0.2
+  
+  ,
+          "canSwimInWater": false
+  
+  ,
+          "canBreatheUnderwater": false
+  
+  
+        }
+      }
+    }
+
+}

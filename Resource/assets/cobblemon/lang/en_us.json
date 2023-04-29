@@ -1,0 +1,33 @@
+{
+    "cobblemon.species.sand.name": "Sand",
+    "cobblemon.species.sand.desc1": "Originally a piece of a block. Sand seems to have breaken free and come alive.",
+    "cobblemon.species.sand.desc2": "Since sand particles are so small. It has to constantly move to stay together.",
+
+    "cobblemon.species.sandstone.name": "Sandstone",
+    "cobblemon.species.sandstone.desc1": "Sand that has finally figured itself to harden together into stone",
+    "cobblemon.species.sandstone.desc2": "Since it still has muscle memory of it's past. Sandstone seems to mimic sand in it's tornado movements.",
+
+    "cobblemon.species.cobblestone.name": "Cobblestone",
+    "cobblemon.species.cobblestone.desc1": "A small piece of a cobblestone block that has come alive.",
+    "cobblemon.species.cobblestone.desc2": "Since cobblestone is already broken. It struggles to hold itself in battle.",
+
+    "cobblemon.species.stone.name": "Stone",
+    "cobblemon.species.stone.desc1": "With the help of a furnace cobblestone has finally turn itself back into it's normal form",
+    "cobblemon.species.stone.desc2": "Stone is much sturdier than before.",
+
+    "cobblemon.species.stonebricks.name": "Stonebricks",
+    "cobblemon.species.stonebricks.desc1": "",
+    "cobblemon.species.stonebricks.desc2": "",
+
+    "cobblemon.species.log.name": "Log",
+    "cobblemon.species.log.desc1": "There are many different variants of Log in the world",
+    "cobblemon.species.log.desc2": "Each variant seems to match the woods it's in",
+
+    "cobblemon.species.planks.name": "Planks",
+    "cobblemon.species.planks.desc1": "Only be able to be crafted. No one knows why it's still alive",
+    "cobblemon.species.planks.desc2": "The variants seem to have no added affect to planks",
+
+    "cobblemon.species.netherrack.name": "Netherrack",
+    "cobblemon.species.netherrack.desc1": "Netherrack got so bored one day it decided to become alive",
+    "cobblemon.species.netherrack.desc2": "What a shame that netherrack is cold"
+  }

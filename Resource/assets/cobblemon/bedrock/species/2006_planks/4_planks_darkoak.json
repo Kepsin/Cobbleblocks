@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:planks",
+  "order": 4,
+  "variations": [
+
+
+    {
+      "aspects": ["planktype-darkoak"],
+      "poser": "cobblemon:planks",
+      "model": "cobblemon:planks.geo",
+      "texture": "cobblemon:textures/pokemon/planks/dark_oak_planks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "planktype-darkoak"],
+      "texture": "cobblemon:textures/pokemon/planks/dark_oak_planks_shiny.png"
+    }
+  ]
+}

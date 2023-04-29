@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:log",
+  "order": 2,
+  "variations": [
+
+
+    {
+      "aspects": ["woodtype-birch"],
+      "model": "cobblemon:log.geo",
+      "texture": "cobblemon:textures/pokemon/log/birch_log.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "woodtype-birch" ],
+      "texture": "cobblemon:textures/pokemon/log/birch_log_shiny.png"
+    }
+  ]
+}

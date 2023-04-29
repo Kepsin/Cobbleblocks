@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:planks",
+  "order": 7,
+  "variations": [
+
+
+    {
+      "aspects": ["planktype-apricorn"],
+      "poser": "cobblemon:planks",
+      "model": "cobblemon:planks.geo",
+      "texture": "cobblemon:textures/pokemon/planks/apricorn_planks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "planktype-apricorn"],
+      "texture": "cobblemon:textures/pokemon/planks/apricorn_planks_shiny.png"
+    }
+  ]
+}

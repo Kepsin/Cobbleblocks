@@ -1,0 +1,208 @@
+{
+    "enabled": true
+  
+  ,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": []
+  
+  ,
+    "spawns": [
+ 
+      {
+        "id": "log-1",
+        "pokemon": "log",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:flower_forest",
+            "minecraft:swamp",
+            "minecraft:forest"
+          ]
+        }
+      },
+      {
+        "id": "log-2",
+        "pokemon": "log",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 3.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:jungle",
+            "minecraft:savanna",
+            "minecraft:plains",
+            "minecraft:wooden_badlands"
+          ]
+        }
+      },
+      {
+        "id": "log-3",
+        "pokemon": "log",
+        "presets": ["water_surface", "freshwater"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "5-24",
+        "weight": 3.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:forest",
+            "#cobblemon:is_river",
+            "#cobblemon:is_swamp",
+            "#minecraft:is_ocean",
+            "#cobblemon:is_coast"
+          ]
+        }
+      },
+      {
+        "id": "log-woodtype-spruce-1",
+        "pokemon": "log woodtype=spruce",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:taiga",
+            "minecraft:snowy_taiga",
+            "minecraft:old_growth_pine_taiga",
+            "minecraft:old_growth_spruce_taiga",
+            "minecraft:windswept_forest"
+          ]
+        }
+      },
+      {
+        "id": "log-woodtype-birch-1",
+        "pokemon": "log woodtype=birch",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:birch_forest",
+            "minecraft:old_growth_birch_forest"
+          ]
+        }
+      },
+      {
+        "id": "log-woodtype-birch-2",
+        "pokemon": "log woodtype=birch",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 3.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:forest"
+          ]
+        }
+      },
+      {
+        "id": "log-woodtype-jungle-1",
+        "pokemon": "log woodtype=jungle",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:jungle",
+            "minecraft:sparse_jungle"
+          ]
+        }
+      },
+      {
+        "id": "log-woodtype-darkoak-1",
+        "pokemon": "log woodtype=darkoak",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:dark_forest"
+          ]
+        }
+      },
+      {
+        "id": "log-woodtype-acacia-1",
+        "pokemon": "log woodtype=acacia",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:savanna",
+            "minecraft:savanna_plateau",
+            "#minecraft:is_savanna"
+          ]
+        }
+      },
+      {
+        "id": "log-woodtype-mangrove-1",
+        "pokemon": "log woodtype=mangrove",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:mangrove_swamp"
+          ]
+        }
+      },
+      {
+        "id": "log-woodtype-apricorn-1",
+        "pokemon": "log woodtype=apricorn",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "#minecraft:is_overworld"
+          ],
+          "neededNearbyBlocks": [
+            "cobblemon:apricorn_log"
+          ]
+        }
+      }
+    ]
+  }

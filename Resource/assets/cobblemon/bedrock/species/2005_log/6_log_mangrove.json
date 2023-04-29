@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:log",
+  "order": 6,
+  "variations": [
+
+
+    {
+      "aspects": ["woodtype-mangrove"],
+      "model": "cobblemon:log.geo",
+      "texture": "cobblemon:textures/pokemon/log/mangrove_log.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "woodtype-mangrove" ],
+      "texture": "cobblemon:textures/pokemon/log/mangrove_log_shiny.png"
+    }
+  ]
+}

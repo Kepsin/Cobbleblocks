@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:planks",
+  "order": 3,
+  "variations": [
+
+
+    {
+      "aspects": ["planktype-jungle"],
+      "poser": "cobblemon:planks",
+      "model": "cobblemon:planks.geo",
+      "texture": "cobblemon:textures/pokemon/planks/jungle_planks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "planktype-jungle"],
+      "texture": "cobblemon:textures/pokemon/planks/jungle_planks_shiny.png"
+    }
+  ]
+}

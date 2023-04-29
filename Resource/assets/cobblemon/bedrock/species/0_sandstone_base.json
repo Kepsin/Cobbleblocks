@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:sandstone",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "aspects": [],
+      "poser": "cobblemon:sandstone",
+      "model": "cobblemon:sandstone.geo",
+      "texture": "cobblemon:textures/pokemon/sandstone/sandstone.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/sandstone/red_sandstone.png"
+
+
+    }
+  ]
+}

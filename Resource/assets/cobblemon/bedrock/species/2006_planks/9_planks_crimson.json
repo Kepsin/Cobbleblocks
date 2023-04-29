@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:planks",
+  "order": 9,
+  "variations": [
+
+
+    {
+      "aspects": ["planktype-crimson"],
+      "poser": "cobblemon:planks",
+      "model": "cobblemon:planks.geo",
+      "texture": "cobblemon:textures/pokemon/planks/crimson_planks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "planktype-crimson"],
+      "texture": "cobblemon:textures/pokemon/planks/crimson_planks_shiny.png"
+    }
+  ]
+}

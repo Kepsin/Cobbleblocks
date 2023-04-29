@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:cobblestone",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "aspects": [],
+      "poser": "cobblemon:cobblestone",
+      "model": "cobblemon:cobblestone.geo",
+      "texture": "cobblemon:textures/pokemon/cobblestone/cobblestone.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/cobblestone/cobbled_deepslate.png"
+
+
+    }
+  ]
+}

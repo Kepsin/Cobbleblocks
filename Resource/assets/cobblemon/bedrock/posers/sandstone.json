@@ -1,0 +1,36 @@
+{
+  "head": "bone",
+  "portraitScale": 1,
+  "portraitTranslation": [ 0, 0, 0 ],
+  "profileScale": 1,
+  "profileTranslation": [ 0, 0, 0 ],
+  "faint": "bedrock(sandstone, faint)",
+  "poses": {
+
+
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+
+
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+
+
+      ],
+      "animations": [
+        "look",
+        "bedrock(sandstone, ground_idle)"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "bedrock(sandstone, ground_walk)" ]
+    }
+  }
+}

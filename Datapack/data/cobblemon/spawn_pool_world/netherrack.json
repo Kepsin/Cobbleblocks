@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "netherrack-1",
+        "pokemon": "netherrack",
+        "presets": [ "natural" ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-20",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": false,
+          "biomes": [ "#minecraft:is_nether" ]
+        },
+        "neededNearbyBlock": ["minecraft:netherrack"]
+      }]
+}

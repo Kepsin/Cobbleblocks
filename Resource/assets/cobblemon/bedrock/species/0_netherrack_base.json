@@ -1,0 +1,37 @@
+{
+    "species": "cobblemon:netherrack"
+  
+  ,
+    "order": 0
+  
+  ,
+    "variations": [
+  
+  
+      {
+        "aspects": []
+  
+  ,
+        "poser": "cobblemon:netherrack"
+  
+  ,
+        "model": "cobblemon:netherrack.geo"
+  
+  ,
+        "texture": "cobblemon:textures/pokemon/netherrack/netherrack.png"
+  
+  ,
+        "layers": []
+  
+  
+      },
+      {
+        "aspects": [ "shiny" ]
+  
+  ,
+        "texture": "cobblemon:textures/pokemon/netherrack/netherrack_shiny.png"
+  
+  
+      }
+    ]
+  }

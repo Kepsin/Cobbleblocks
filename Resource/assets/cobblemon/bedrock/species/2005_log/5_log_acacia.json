@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:log",
+  "order": 5,
+  "variations": [
+
+
+    {
+      "aspects": ["woodtype-acacia"],
+      "model": "cobblemon:log.geo",
+      "texture": "cobblemon:textures/pokemon/log/acacia_log.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "woodtype-darkoak" ],
+      "texture": "cobblemon:textures/pokemon/log/acacia_log_shiny.png"
+    }
+  ]
+}

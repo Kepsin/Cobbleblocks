@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:log",
+  "order": 3,
+  "variations": [
+
+
+    {
+      "aspects": ["woodtype-jungle"],
+      "model": "cobblemon:log.geo",
+      "texture": "cobblemon:textures/pokemon/log/jungle_log.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "woodtype-jungle" ],
+      "texture": "cobblemon:textures/pokemon/log/jungle_log_shiny.png"
+    }
+  ]
+}

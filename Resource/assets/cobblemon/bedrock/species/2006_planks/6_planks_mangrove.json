@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:planks",
+  "order": 6,
+  "variations": [
+
+
+    {
+      "aspects": ["planktype-mangrove"],
+      "poser": "cobblemon:planks",
+      "model": "cobblemon:planks.geo",
+      "texture": "cobblemon:textures/pokemon/planks/mangrove_planks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "planktype-mangrove"],
+      "texture": "cobblemon:textures/pokemon/planks/mangrove_planks_shiny.png"
+    }
+  ]
+}

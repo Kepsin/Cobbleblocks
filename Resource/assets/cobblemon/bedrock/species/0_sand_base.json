@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:sand",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "aspects": [],
+      "poser": "cobblemon:sand",
+      "model": "cobblemon:sand.geo",
+      "texture": "cobblemon:textures/pokemon/sand/sand.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/sand/red_sand.png"
+
+
+    }
+  ]
+}

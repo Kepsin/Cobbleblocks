@@ -1,0 +1,91 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.planks.faint": {
+			"animation_length": 3,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-89.75, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 5, 21]
+					}
+				}
+			}
+		},
+		"animation.planks.ground_idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -32.5, 0],
+						"1.0": [0, 0, 0],
+						"1.5": [0, 32.5, 0],
+						"2.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.planks.ground_walk": {
+			"loop": true,
+			"animation_length": 2.04167,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [90, 0, 0],
+						"1.0": [180, 0, 0],
+						"1.5": [270, 0, 0],
+						"2.0": [360, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 8, 7],
+						"1.0": [0, 16, -1],
+						"1.5": [0, 8, -8],
+						"2.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.planks.water_idle": {
+			"animation_length": 1,
+			"bones": {
+				"bone": {
+					"position": {
+						"0.0": [0, -7, 0],
+						"0.5": [0, -3, 0],
+						"1.0": [0, -8, 0]
+					}
+				}
+			}
+		},
+		"animation.planks.water_swim": {
+			"loop": true,
+			"animation_length": 2.04167,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [90, 0, 0],
+						"1.0": [180, 0, 0],
+						"1.5": [270, 0, 0],
+						"2.0": [360, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 8, 7],
+						"1.0": [0, 16, -1],
+						"1.5": [0, 8, -8],
+						"2.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

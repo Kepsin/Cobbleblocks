@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "stone",
+  "nationalPokedexNumber": 2003,
+  "primaryType": "rock",
+  "abilities": [
+    "solidrock",
+    "rockhead",
+    "h:rockypayload"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 95,
+    "special_attack": 37,
+    "special_defence": 95,
+    "speed": 43
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "features": [],
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 270,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": "3",
+    "entries": [
+      {
+        "item": "minecraft:cobblestone",
+        "quantityRange": "1",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:stone",
+        "quantityRange": "1",
+        "percentage": 20
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "quantityRange": "1",
+        "percentage": 5
+      }
+    ]
+  },
+  "moves": [
+    "egg:disable",
+    "0:tackle",
+    "0:harden",
+    "5:rockthrow",
+    "11:magnitude",
+    "16:endure",
+    "24:rockslide",
+    "27:irondefense",
+    "30:sharpen",
+    "32:stealthrock",
+    "39:earthquake",
+    "43:stoneedge",
+    "tm:earthquake",
+    "tm:rockslide",
+    "tm:stealthrock",
+    "tm:stoneedge"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.stone.desc1",
+    "cobblemon.species.stone.desc2"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "defence": 2,
+    "hp": 1
+  },
+  "height": 2,
+  "weight": 10,
+
+  "evolutions": [{
+    "id": "stone_stonebricks_stonecutter",
+    "variant": "item_interact",
+    "result": "stonebricks",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "minecraft:stonecutter"
+
+  }],
+  "preEvolution": "cobblestone"
+
+
+}

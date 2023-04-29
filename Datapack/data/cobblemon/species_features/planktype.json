@@ -1,0 +1,19 @@
+{
+    "keys": [ "planktype" ],
+    "type": "choice",
+    "default": false,
+    "choices": [
+        "oak",
+        "spruce",
+        "darkoak",
+        "acacia",
+        "birch",
+        "jungle",
+        "mangrove",
+        "apricorn",
+        "crimson",
+        "warped"
+      ],    
+    "isAspect": true,
+    "aspectFormat": "planktype-{{choice}}"
+  }

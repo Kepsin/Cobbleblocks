@@ -1,0 +1,52 @@
+{
+    "enabled": true
+  
+  ,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": []
+  
+  ,
+    "spawns": [
+ 
+      {
+        "id": "stone-1",
+        "pokemon": "stone",
+        "presets": ["natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "20-25",
+        "weight": 1.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "#minecraft:is_overworld"
+          ],
+          "neededNearbyBlock": [
+            "minecraft:stone"
+          ]
+        }
+      },
+      {
+        "id": "stone-2",
+        "pokemon": "stone",
+        "presets": ["natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "20-35",
+        "weight": 1.0,
+        "condition": {
+          "canSeeSky": false,
+          "biomes": [
+            "#minecraft:is_overworld"
+          ],
+          "neededNearbyBlock": [
+            "minecraft:stone"
+          ]
+        }
+      }
+    ]
+  }

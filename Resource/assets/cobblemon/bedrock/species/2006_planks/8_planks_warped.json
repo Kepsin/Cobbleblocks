@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:planks",
+  "order": 8,
+  "variations": [
+
+
+    {
+      "aspects": ["planktype-warped"],
+      "poser": "cobblemon:planks",
+      "model": "cobblemon:planks.geo",
+      "texture": "cobblemon:textures/pokemon/planks/warped_planks.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "planktype-warped"],
+      "texture": "cobblemon:textures/pokemon/planks/warped_planks_shiny.png"
+    }
+  ]
+}
