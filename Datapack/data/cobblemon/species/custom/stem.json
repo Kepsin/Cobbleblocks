@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stem",
-  "nationalPokedexNumber": 2005,
+  "nationalPokedexNumber": 2006,
   "primaryType": "grass",
   "abilities": [
     "leafguard",
@@ -10,11 +10,11 @@
   ],
   "baseStats": {
     "hp": 80,
-    "attack": 85,
-    "defence": 95,
-    "special_attack": 30,
-    "special_defence": 105,
-    "speed": 50
+    "attack": 75,
+    "defence": 65,
+    "special_attack": 60,
+    "special_defence": 85,
+    "speed": 60
   },
   "behaviour": {
     "moving": {
@@ -26,27 +26,27 @@
       }
     }
   },
-  "aspects":["woodtype"],
-  "features":["woodtype", "planktype"],
+  "aspects":["stemtype"],
+  "features":["stemtype"],
   "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [{
-    "name": "woodtype-spruce",
+    "name": "stemtype-warped",
     "drops": {
       "amount": "1",
       "entries": [
         {
-          "item": "minecraft:spruce_log",
+          "item": "minecraft:warped_stem",
           "quantityRange": "1",
           "percentage": 100
         }
       ]
     },
     "evolutions": [{
-      "id": "log_planks_spruce_crafting_table",
+      "id": "stem_planks_warped_crafting_table",
       "variant": "item_interact",
-      "result": "planks form=planktype-spruce",
+      "result": "planks form=planktype-warped",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],
@@ -55,19 +55,19 @@
     }]
   },
   {
-    "name": "woodtype-birch",
+    "name": "stemtype-crimson",
     "drops": {
       "amount": "1",
       "entries": [
         {
-          "item": "minecraft:birch_log",
+          "item": "minecraft:crimson_stem",
           "quantityRange": "1",
           "percentage": 100
         }
       ]
     },
     "evolutions": [{
-      "id": "log_planks_crafting_table",
+      "id": "stem_planks_crimson_crafting_table",
       "variant": "item_interact",
       "result": "planks form=planktype-birch",
       "consumeHeldItem": true,
@@ -75,122 +75,7 @@
       "requirements": [],
       "requiredContext": "minecraft:crafting_table"
   
-    }]
-  },  
-  {
-    "name": "woodtype-darkoak",
-    "drops": {
-      "amount": "1",
-      "entries": [
-        {
-          "item": "minecraft:dark_oak_log",
-          "quantityRange": "1",
-          "percentage": 100
-        }
-      ]
-    },
-    "evolutions": [{
-      "id": "log_planks_crafting_table",
-      "variant": "item_interact",
-      "result": "planks form=planktype-darkoak",
-      "consumeHeldItem": true,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:crafting_table"
-  
-    }]
-  },  
-  {
-    "name": "woodtype-acacia",
-    "drops": {
-      "amount": "1",
-      "entries": [
-        {
-          "item": "minecraft:acacia_log",
-          "quantityRange": "1",
-          "percentage": 100
-        }
-      ]
-    },
-    "evolutions": [{
-      "id": "log_planks_crafting_table",
-      "variant": "item_interact",
-      "result": "planks form=planktype-acacia",
-      "consumeHeldItem": true,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:crafting_table"
-  
-    }]
-  },
-  {
-    "name": "woodtype-jungle",
-    "drops": {
-      "amount": "1",
-      "entries": [
-        {
-          "item": "minecraft:jungle_log",
-          "quantityRange": "1",
-          "percentage": 100
-        }
-      ]
-    },
-    "evolutions": [{
-      "id": "log_planks_crafting_table",
-      "variant": "item_interact",
-      "result": "planks form=planktype-jungle",
-      "consumeHeldItem": true,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:crafting_table"
-  
-    }]
-  },
-  {
-    "name": "woodtype-mangrove",
-    "drops": {
-      "amount": "1",
-      "entries": [
-        {
-          "item": "minecraft:mangrove_log",
-          "quantityRange": "1",
-          "percentage": 100
-        }
-      ]
-    },
-    "evolutions": [{
-      "id": "log_planks_crafting_table",
-      "variant": "item_interact",
-      "result": "planks form=planktype-mangrove",
-      "consumeHeldItem": true,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:crafting_table"
-  
-    }]
-  },
-  {
-    "name": "woodtype-apricorn",
-    "drops": {
-      "amount": "1",
-      "entries": [
-        {
-          "item": "cobblemon:apricorn_log",
-          "quantityRange": "1",
-          "percentage": 100
-        }
-      ]
-    },
-    "evolutions": [{
-      "id": "log_planks_crafting_table",
-      "variant": "item_interact",
-      "result": "planks form=planktype-apricorn",
-      "consumeHeldItem": true,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:crafting_table"
-  
-    }]
+    }]  
   }],
   "baseExperienceYield": 270,
   "experienceGroup": "medium_slow",
@@ -202,22 +87,12 @@
     "amount": "1",
     "entries": [
       {
-        "item": "minecraft:oak_log",
+        "item": "minecraft:mushroom_stem",
         "quantityRange": "1",
         "percentage": 100
       }
     ]
   },
-  "evolutions": [{
-    "id": "log_planks_crafting_table",
-    "variant": "item_interact",
-    "result": "planks",
-    "consumeHeldItem": true,
-    "learnableMoves": [],
-    "requirements": [],
-    "requiredContext": "minecraft:crafting_table"
-
-  }],
   "moves": [
     "tutor:grassyterrain",
     "tutor:headcharge",
@@ -243,8 +118,8 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.log.desc1",
-    "cobblemon.species.log.desc2"
+    "cobblemon.species.stem.desc1",
+    "cobblemon.species.stem.desc2"
   ],
   "baseScale": 0.5,
   "hitbox": {

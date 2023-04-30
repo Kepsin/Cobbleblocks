@@ -5,7 +5,7 @@
 
 
     {
-      "aspects": ["woodtype-birch"],
+      "aspects": ["logtype-birch"],
       "model": "cobblemon:log.geo",
       "texture": "cobblemon:textures/pokemon/log/birch_log.png",
       "layers": []
@@ -13,7 +13,7 @@
 
     },
     {
-      "aspects": [ "shiny", "woodtype-birch" ],
+      "aspects": [ "shiny", "logtype-birch" ],
       "texture": "cobblemon:textures/pokemon/log/birch_log_shiny.png"
     }
   ]

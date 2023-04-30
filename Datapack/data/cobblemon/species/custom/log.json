@@ -26,13 +26,14 @@
       }
     }
   },
-  "aspects":["woodtype"],
-  "features":["woodtype"],
+  "aspects":["logtype"],
+  "features": ["logtype"],
   "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [{
-    "name": "woodtype-spruce",
+    "name": "logtype-spruce",
+    "primaryType": "dark",
     "drops": {
       "amount": "1",
       "entries": [
@@ -46,7 +47,7 @@
     "evolutions": [{
       "id": "log_planks_spruce_crafting_table",
       "variant": "item_interact",
-      "result": "planks form=planktype-spruce",
+      "result": "planks planktype-spruce",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],
@@ -55,7 +56,7 @@
     }]
   },
   {
-    "name": "woodtype-birch",
+    "name": "logtype-birch",
     "drops": {
       "amount": "1",
       "entries": [
@@ -67,9 +68,9 @@
       ]
     },
     "evolutions": [{
-      "id": "log_planks_crafting_table",
+      "id": "log_planks_birch_crafting_table",
       "variant": "item_interact",
-      "result": "planks form=planktype-birch",
+      "result": "planks planktype-birch",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],
@@ -78,7 +79,7 @@
     }]
   },  
   {
-    "name": "woodtype-darkoak",
+    "name": "logtype-darkoak",
     "drops": {
       "amount": "1",
       "entries": [
@@ -90,9 +91,9 @@
       ]
     },
     "evolutions": [{
-      "id": "log_planks_crafting_table",
+      "id": "log_planks_darkoak_crafting_table",
       "variant": "item_interact",
-      "result": "planks form=planktype-darkoak",
+      "result": "planks planktype-darkoak",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],
@@ -101,7 +102,7 @@
     }]
   },  
   {
-    "name": "woodtype-acacia",
+    "name": "logtype-acacia",
     "drops": {
       "amount": "1",
       "entries": [
@@ -113,9 +114,9 @@
       ]
     },
     "evolutions": [{
-      "id": "log_planks_crafting_table",
+      "id": "log_planks_acacia_crafting_table",
       "variant": "item_interact",
-      "result": "planks form=planktype-acacia",
+      "result": "planks planktype-acacia",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],
@@ -124,7 +125,7 @@
     }]
   },
   {
-    "name": "woodtype-jungle",
+    "name": "logtype-jungle",
     "drops": {
       "amount": "1",
       "entries": [
@@ -136,9 +137,9 @@
       ]
     },
     "evolutions": [{
-      "id": "log_planks_crafting_table",
+      "id": "log_planks_jungle_crafting_table",
       "variant": "item_interact",
-      "result": "planks form=planktype-jungle",
+      "result": "planks planktype-jungle",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],
@@ -147,7 +148,7 @@
     }]
   },
   {
-    "name": "woodtype-mangrove",
+    "name": "log-mangrove",
     "drops": {
       "amount": "1",
       "entries": [
@@ -159,9 +160,9 @@
       ]
     },
     "evolutions": [{
-      "id": "log_planks_crafting_table",
+      "id": "log_planks_mangrove_crafting_table",
       "variant": "item_interact",
-      "result": "planks form=planktype-mangrove",
+      "result": "planks planktype-mangrove",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],
@@ -170,7 +171,7 @@
     }]
   },
   {
-    "name": "woodtype-apricorn",
+    "name": "logtype-apricorn",
     "drops": {
       "amount": "1",
       "entries": [
@@ -182,9 +183,9 @@
       ]
     },
     "evolutions": [{
-      "id": "log_planks_crafting_table",
+      "id": "log_planks_apricorn_crafting_table",
       "variant": "item_interact",
-      "result": "planks form=planktype-apricorn",
+      "result": "planks planktype-apricorn",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [],

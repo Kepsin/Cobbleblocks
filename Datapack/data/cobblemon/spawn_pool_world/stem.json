@@ -1,0 +1,76 @@
+{
+    "enabled": true
+  
+  ,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": []
+  
+  ,
+    "spawns": [
+ 
+      {
+        "id": "stem-1",
+        "pokemon": "stem",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:mushroom_fields"
+          ]
+        }
+      },
+      {
+        "id": "stem-2",
+        "pokemon": "stem",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 3.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:dark_forest"
+          ]
+        }
+      },
+      {
+        "id": "stem-stemtype-warped-1",
+        "pokemon": "stem stemtype=warped",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:warped_forest"
+          ]
+        }
+      },
+      {
+        "id": "stem-stemtype-crimson-1",
+        "pokemon": "stem stemtype=crimson",
+        "presets": ["natural", "treetop"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "5-24",
+        "weight": 10.0,
+        "condition": {
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:crimson_forest"
+          ]
+        }
+      }
+    ]
+  }

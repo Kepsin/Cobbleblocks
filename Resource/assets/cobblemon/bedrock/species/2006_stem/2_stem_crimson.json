@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:stem",
+  "order": 2,
+  "variations": [
+
+
+    {
+      "aspects": ["stemtype-crimson"],
+      "poser": "cobblemon:stem",
+      "model": "cobblemon:log.geo",
+      "texture": "cobblemon:textures/pokemon/stem/crimson_stem.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "stemtype-crimon"],
+      "texture": "cobblemon:textures/pokemon/stem/crimson_stem_shiny.png"
+    }
+  ]
+}

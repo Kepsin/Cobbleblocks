@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "planks",
-  "nationalPokedexNumber": 2006,
+  "nationalPokedexNumber": 2007,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -41,8 +41,7 @@
           "percentage": 100
         }
       ]
-    },
-    "preEvolution": "log form=woodtype-spruce"
+    }
   },
   {
     "name": "planktype-birch",
@@ -55,8 +54,7 @@
           "percentage": 100
         }
       ]
-    },
-    "preEvolution": "log form=woodtype-birch"
+    }
   },  
   {
     "name": "planktype-darkoak",
@@ -69,8 +67,7 @@
           "percentage": 100
         }
       ]
-    },
-    "preEvolution": "log form=woodtype-darkoak"
+    }
   },  
   {
     "name": "planktype-acacia",
@@ -83,8 +80,7 @@
           "percentage": 100
         }
       ]
-    },
-    "preEvolution": "log form=woodtype-acacia"
+    }
   },
   {
     "name": "planktype-jungle",
@@ -97,8 +93,7 @@
           "percentage": 100
         }
       ]
-    },
-    "preEvolution": "log form=woodtype-jungle"
+    }
   },
   {
     "name": "planktype-mangrove",
@@ -111,8 +106,7 @@
           "percentage": 100
         }
       ]
-    },
-    "preEvolution": "log form=woodtype-mangrove"
+    }
   },
   {
     "name": "planktype-apricorn",
@@ -125,8 +119,7 @@
           "percentage": 100
         }
       ]
-    },
-    "preEvolution": "log form=woodtype-apricon"
+    }
   },  
   {
     "name": "planktype-warped",
@@ -210,6 +203,5 @@
     "attack": 1
   },
   "height": 2,
-  "weight": 10,
-  "preEvolution": "log"
+  "weight": 10
 }

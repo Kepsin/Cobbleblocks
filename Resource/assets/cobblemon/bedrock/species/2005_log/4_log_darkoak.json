@@ -5,7 +5,7 @@
 
 
     {
-      "aspects": ["woodtype-darkoak"],
+      "aspects": ["logtype-darkoak"],
       "model": "cobblemon:log.geo",
       "texture": "cobblemon:textures/pokemon/log/dark_oak_log.png",
       "layers": []
@@ -13,7 +13,7 @@
 
     },
     {
-      "aspects": [ "shiny", "woodtype-darkoak" ],
+      "aspects": [ "shiny", "logtype-darkoak" ],
       "texture": "cobblemon:textures/pokemon/log/dark_oak_log_shiny.png"
     }
   ]

@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:stem",
+  "order": 1,
+  "variations": [
+
+
+    {
+      "aspects": ["stemtype-warped"],
+      "poser": "cobblemon:stem",
+      "model": "cobblemon:log.geo",
+      "texture": "cobblemon:textures/pokemon/stem/warped_stem.png",
+      "layers": []
+
+
+    },
+    {
+      "aspects": [ "shiny", "stemtype-warped"],
+      "texture": "cobblemon:textures/pokemon/stem/warped_stem_shiny.png"
+    }
+  ]
+}

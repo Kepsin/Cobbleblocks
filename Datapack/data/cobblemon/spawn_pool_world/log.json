@@ -66,8 +66,8 @@
         }
       },
       {
-        "id": "log-woodtype-spruce-1",
-        "pokemon": "log woodtype=spruce",
+        "id": "log-logtype-spruce-1",
+        "pokemon": "log logtype=spruce",
         "presets": ["natural", "treetop"],
         "type": "pokemon",
         "context": "grounded",
@@ -86,8 +86,8 @@
         }
       },
       {
-        "id": "log-woodtype-birch-1",
-        "pokemon": "log woodtype=birch",
+        "id": "log-logtype-birch-1",
+        "pokemon": "log logtype=birch",
         "presets": ["natural", "treetop"],
         "type": "pokemon",
         "context": "grounded",
@@ -103,8 +103,8 @@
         }
       },
       {
-        "id": "log-woodtype-birch-2",
-        "pokemon": "log woodtype=birch",
+        "id": "log-logtype-birch-2",
+        "pokemon": "log logtype=birch",
         "presets": ["natural", "treetop"],
         "type": "pokemon",
         "context": "grounded",
@@ -119,8 +119,8 @@
         }
       },
       {
-        "id": "log-woodtype-jungle-1",
-        "pokemon": "log woodtype=jungle",
+        "id": "log-logtype-jungle-1",
+        "pokemon": "log logtype=jungle",
         "presets": ["natural", "treetop"],
         "type": "pokemon",
         "context": "grounded",
@@ -136,8 +136,8 @@
         }
       },
       {
-        "id": "log-woodtype-darkoak-1",
-        "pokemon": "log woodtype=darkoak",
+        "id": "log-logtype-darkoak-1",
+        "pokemon": "log logtype=darkoak",
         "presets": ["natural", "treetop"],
         "type": "pokemon",
         "context": "grounded",
@@ -152,8 +152,8 @@
         }
       },
       {
-        "id": "log-woodtype-acacia-1",
-        "pokemon": "log woodtype=acacia",
+        "id": "log-logtype-acacia-1",
+        "pokemon": "log logtype=acacia",
         "presets": ["natural", "treetop"],
         "type": "pokemon",
         "context": "grounded",
@@ -170,8 +170,8 @@
         }
       },
       {
-        "id": "log-woodtype-mangrove-1",
-        "pokemon": "log woodtype=mangrove",
+        "id": "log-logtype-mangrove-1",
+        "pokemon": "log logtype=mangrove",
         "presets": ["natural", "treetop"],
         "type": "pokemon",
         "context": "grounded",
@@ -186,8 +186,8 @@
         }
       },
       {
-        "id": "log-woodtype-apricorn-1",
-        "pokemon": "log woodtype=apricorn",
+        "id": "log-logtype-apricorn-1",
+        "pokemon": "log logtype=apricorn",
         "presets": ["natural", "treetop"],
         "type": "pokemon",
         "context": "grounded",

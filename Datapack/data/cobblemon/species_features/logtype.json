@@ -1,5 +1,5 @@
 {
-    "keys": [ "woodtype" ],
+    "keys": [ "logtype" ],
     "type": "choice",
     "default": false,
     "choices": [
@@ -13,5 +13,5 @@
         "apricorn"
       ],    
     "isAspect": true,
-    "aspectFormat": "woodtype-{{choice}}"
+    "aspectFormat": "logtype-{{choice}}"
   }

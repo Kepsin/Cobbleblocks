@@ -29,5 +29,9 @@
 
     "cobblemon.species.netherrack.name": "Netherrack",
     "cobblemon.species.netherrack.desc1": "Netherrack got so bored one day it decided to become alive",
-    "cobblemon.species.netherrack.desc2": "What a shame that netherrack is cold"
+    "cobblemon.species.netherrack.desc2": "What a shame that netherrack is cold",
+
+    "cobblemon.species.stem.name": "Stem",
+    "cobblemon.species.stem.desc1": "Mushroom Kingdom here we come! - Mario",
+    "cobblemon.species.stem.desc2": "I'm joking"
   }
