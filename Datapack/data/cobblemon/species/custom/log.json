@@ -31,9 +31,55 @@
   "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
+  "baseExperienceYield": 270,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:oak_log",
+        "quantityRange": "1",
+        "percentage": 100
+      }
+    ]
+  },
+  "evolutions": [{
+    "id": "log_planks_crafting_table",
+    "variant": "item_interact",
+    "result": "planks",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "minecraft:crafting_table"
+
+  }],
+  "moves": [
+    "tutor:grassyterrain",
+    "tutor:headcharge",
+    "tutor:petalblizzard",
+    "0:tackle",
+    "0:cut",
+    "0:naturepower",
+    "5:razorleaf",
+    "12:leechseed",
+    "16:rapidspin",
+    "21:growth",
+    "25:leafblade",
+    "31:steamroller",
+    "35:strengthsap",
+    "42:powerwhip",
+    "50:chloroblast",
+    "56:woodhammer",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:toxic"
+  ],
   "forms": [{
-    "name": "logtype-spruce",
-    "primaryType": "dark",
+    "name": "logtype=spruce",
     "drops": {
       "amount": "1",
       "entries": [
@@ -193,53 +239,6 @@
   
     }]
   }],
-  "baseExperienceYield": 270,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 25,
-  "eggGroups": [
-    "mineral"
-  ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "minecraft:oak_log",
-        "quantityRange": "1",
-        "percentage": 100
-      }
-    ]
-  },
-  "evolutions": [{
-    "id": "log_planks_crafting_table",
-    "variant": "item_interact",
-    "result": "planks",
-    "consumeHeldItem": true,
-    "learnableMoves": [],
-    "requirements": [],
-    "requiredContext": "minecraft:crafting_table"
-
-  }],
-  "moves": [
-    "tutor:grassyterrain",
-    "tutor:headcharge",
-    "tutor:petalblizzard",
-    "0:tackle",
-    "0:cut",
-    "0:naturepower",
-    "5:razorleaf",
-    "12:leechseed",
-    "16:rapidspin",
-    "21:growth",
-    "25:leafblade",
-    "31:steamroller",
-    "35:strengthsap",
-    "42:powerwhip",
-    "50:chloroblast",
-    "56:woodhammer",
-    "tm:gigadrain",
-    "tm:energyball",
-    "tm:toxic"
-  ],
   "labels": [
     "custom"
   ],

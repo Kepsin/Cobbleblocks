@@ -50,7 +50,7 @@
         "level": "5-24",
         "weight": 10.0,
         "condition": {
-          "canSeeSky": true,
+          "canSeeSky": false,
           "biomes": [
             "minecraft:warped_forest"
           ]
@@ -66,7 +66,7 @@
         "level": "5-24",
         "weight": 10.0,
         "condition": {
-          "canSeeSky": true,
+          "canSeeSky": false,
           "biomes": [
             "minecraft:crimson_forest"
           ]
