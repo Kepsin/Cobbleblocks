@@ -10,7 +10,11 @@ A Cobblemon Add-on that introduces your everyday minecraft blocks into the cobbl
 * Stone 
 * Stonebricks
 * Log 
-* Planks 
+* Planks
+* Dirt
+* Grass
+* Podzol
+* Mycelium
 
 ### **Evolution Methods**
 

@@ -27,7 +27,11 @@
     "cobblemon.species.planks.desc1": "Only be able to be crafted. No one knows why it's still alive",
     "cobblemon.species.planks.desc2": "The variants seem to have no added affect to planks",
 
-    "cobblemon.species.netherrack.name": "Netherrack",
-    "cobblemon.species.netherrack.desc1": "Netherrack got so bored one day it decided to become alive",
-    "cobblemon.species.netherrack.desc2": "What a shame that netherrack is cold"
+    "cobblemon.species.dirt.name": "Dirt",
+
+    "cobblemon.species.grass.name": "Grass",
+
+    "cobblemon.species.podzol.name": "Podzol",
+
+    "cobblemon.species.mycelium.name": "Mycelium"
   }

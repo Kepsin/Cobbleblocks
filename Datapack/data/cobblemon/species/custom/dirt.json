@@ -1,0 +1,132 @@
+{
+  "implemented": true,
+  "name": "dirt",
+  "nationalPokedexNumber": 2008,
+  "primaryType": "ground",
+  "abilities": [
+    "unaware",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 35,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "1",
+        "percentage": 100
+      }
+    ]
+  },
+  "features": [],
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 270,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "0:tackle",
+    "0:harden",
+    "5:sandattack",
+    "11:magnitude",
+    "16:mudslap",
+    "22:rockslide",
+    "30:mudshot",
+    "32:rototiller",
+    "39:earthquake",
+    "43:stoneedge",
+    "tm:earthquake",
+    "tm:rockslide",
+    "tm:stealthrock",
+    "tm:stoneedge"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.dirt.desc1",
+    "cobblemon.species.dirt.desc2"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "defence": 2,
+    "hp": 1
+  },
+  "height": 2,
+  "weight": 10,
+  "evolutions": [{
+    "id": "dirt_grass",
+    "variant": "level_up",
+    "result": "grass",
+    "consumeHeldItem": false,
+    "learnableMoves": ["grassyterrain"],
+    "requirements": [{ 
+      "variant": "level",
+      "minLevel": "25"},
+      {
+        "variant": "held_item",
+        "itemCondition": "minecraft:grass"
+      }
+  ]
+
+  },
+  {
+    "id": "dirt_podzol",
+    "variant": "level_up",
+    "result": "podzol",
+    "consumeHeldItem": false,
+    "learnableMoves": ["ingrain"],
+    "requirements": [{ 
+      "variant": "level",
+      "minLevel": "25"},
+      {
+        "variant": "held_item",
+        "itemCondition": "minecraft:dead_bush"
+      }
+  ]
+  },
+  {
+    "id": "dirt_mycelium",
+    "variant": "level_up",
+    "result": "mycelium",
+    "consumeHeldItem": false,
+    "learnableMoves": ["spore"],
+    "requirements": [{ 
+      "variant": "level",
+      "minLevel": "25"},
+      {
+        "variant": "held_item",
+        "itemCondition": "minecraft:red_mushroom"
+      }
+  ]
+
+  }]
+}

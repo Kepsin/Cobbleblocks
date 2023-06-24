@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:podzol",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "poser": "cobblemon:podzol",
+      "model": "cobblemon:sandstone.geo",
+      "texture": "cobblemon:textures/pokemon/podzol/podzol.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/podzol/podzol_shiny.png"
+
+
+    }
+  ]
+}

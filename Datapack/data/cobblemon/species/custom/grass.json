@@ -1,0 +1,86 @@
+{
+  "implemented": true,
+  "name": "grass",
+  "nationalPokedexNumber": 2008,
+  "primaryType": "ground",
+  "secondaryType": "grass",
+  "abilities": [
+    "unaware",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 75,
+    "special_defence": 65,
+    "speed": 60
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:grass",
+        "quantityRange": "1",
+        "percentage": 100
+      }
+    ]
+  },
+  "features": [],
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 270,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "0:tackle",
+    "0:harden",
+    "5:sandattack",
+    "11:magnitude",
+    "16:mudslap",
+    "22:rockslide",
+    "30:grasspledge",
+    "32:rototiller",
+    "39:earthquake",
+    "43:chloroblast",
+    "tm:earthquake",
+    "tm:rockslide",
+    "tm:stealthrock",
+    "tm:stoneedge"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.grass.desc1",
+    "cobblemon.species.grass.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "defence": 2,
+    "hp": 1
+  },
+  "height": 2,
+  "weight": 10
+}

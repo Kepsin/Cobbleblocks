@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dirt",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "poser": "cobblemon:cobblestone",
+      "model": "cobblemon:cobblestone.geo",
+      "texture": "cobblemon:textures/pokemon/dirt/dirt.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/dirt/dirt_shiny.png"
+
+
+    }
+  ]
+}
