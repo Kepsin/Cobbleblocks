@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mycelium",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "poser": "cobblemon:mycelium",
+      "model": "cobblemon:sandstone.geo",
+      "texture": "cobblemon:textures/pokemon/mycelium/mycelium.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/mycelium/mycelium_shiny.png"
+
+
+    }
+  ]
+}

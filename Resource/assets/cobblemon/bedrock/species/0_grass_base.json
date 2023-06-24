@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:grass",
+  "order": 0,
+  "variations": [
+
+
+    {
+      "poser": "cobblemon:grass",
+      "model": "cobblemon:sandstone.geo",
+      "texture": "cobblemon:textures/pokemon/grass/grass.png"
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/grass/grass_shiny.png"
+
+
+    }
+  ]
+}
